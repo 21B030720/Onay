@@ -9,21 +9,38 @@
 /* Begin PBXBuildFile section */
 		F595D1822B34251100F86D47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D1812B34251100F86D47 /* AppDelegate.swift */; };
 		F595D1842B34251100F86D47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D1832B34251100F86D47 /* SceneDelegate.swift */; };
-		F595D1862B34251100F86D47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D1852B34251100F86D47 /* ViewController.swift */; };
-		F595D1892B34251100F86D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F595D1872B34251100F86D47 /* Main.storyboard */; };
+		F595D1862B34251100F86D47 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D1852B34251100F86D47 /* LoginVC.swift */; };
 		F595D18B2B34251500F86D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F595D18A2B34251500F86D47 /* Assets.xcassets */; };
 		F595D18E2B34251500F86D47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F595D18C2B34251500F86D47 /* LaunchScreen.storyboard */; };
+		F595D1962B3425CC00F86D47 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D1952B3425CC00F86D47 /* Data.swift */; };
+		F595D1982B34261000F86D47 /* PassengerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D1972B34261000F86D47 /* PassengerVC.swift */; };
+		F595D19A2B34261A00F86D47 /* DriverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D1992B34261A00F86D47 /* DriverVC.swift */; };
+		F595D19D2B34279D00F86D47 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F595D19C2B34279D00F86D47 /* SnapKit */; };
+		F595D19F2B34288800F86D47 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D19E2B34288800F86D47 /* LoginView.swift */; };
+		F595D1A52B34314500F86D47 /* PassengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D1A42B34314500F86D47 /* PassengerView.swift */; };
+		F595D1A72B3431C300F86D47 /* DriverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D1A62B3431C300F86D47 /* DriverView.swift */; };
+		F595D1AD2B343E2F00F86D47 /* BusSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D1AC2B343E2F00F86D47 /* BusSelectVC.swift */; };
+		F595D1AF2B343F2A00F86D47 /* BusSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D1AE2B343F2A00F86D47 /* BusSelectView.swift */; };
+		F595D1B22B344E9C00F86D47 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D1B12B344E9C00F86D47 /* MapVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F595D17E2B34251100F86D47 /* Onay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Onay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F595D1812B34251100F86D47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F595D1832B34251100F86D47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F595D1852B34251100F86D47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F595D1882B34251100F86D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F595D1852B34251100F86D47 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		F595D18A2B34251500F86D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F595D18D2B34251500F86D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F595D18F2B34251500F86D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F595D1952B3425CC00F86D47 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F595D1972B34261000F86D47 /* PassengerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerVC.swift; sourceTree = "<group>"; };
+		F595D1992B34261A00F86D47 /* DriverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverVC.swift; sourceTree = "<group>"; };
+		F595D19E2B34288800F86D47 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F595D1A42B34314500F86D47 /* PassengerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerView.swift; sourceTree = "<group>"; };
+		F595D1A62B3431C300F86D47 /* DriverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverView.swift; sourceTree = "<group>"; };
+		F595D1AC2B343E2F00F86D47 /* BusSelectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusSelectVC.swift; sourceTree = "<group>"; };
+		F595D1AE2B343F2A00F86D47 /* BusSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusSelectView.swift; sourceTree = "<group>"; };
+		F595D1B12B344E9C00F86D47 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F595D19D2B34279D00F86D47 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +74,63 @@
 		F595D1802B34251100F86D47 /* Onay */ = {
 			isa = PBXGroup;
 			children = (
-				F595D1812B34251100F86D47 /* AppDelegate.swift */,
 				F595D1832B34251100F86D47 /* SceneDelegate.swift */,
-				F595D1852B34251100F86D47 /* ViewController.swift */,
-				F595D1872B34251100F86D47 /* Main.storyboard */,
+				F595D1812B34251100F86D47 /* AppDelegate.swift */,
+				F595D1A02B3430EA00F86D47 /* Modules */,
 				F595D18A2B34251500F86D47 /* Assets.xcassets */,
 				F595D18C2B34251500F86D47 /* LaunchScreen.storyboard */,
 				F595D18F2B34251500F86D47 /* Info.plist */,
+				F595D1B12B344E9C00F86D47 /* MapVC.swift */,
 			);
 			path = Onay;
+			sourceTree = "<group>";
+		};
+		F595D1A02B3430EA00F86D47 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F595D1952B3425CC00F86D47 /* Data.swift */,
+				F595D1A12B3430F300F86D47 /* Login */,
+				F595D1A22B3430FE00F86D47 /* Passanger */,
+				F595D1B02B343F2F00F86D47 /* BusSelect */,
+				F595D1A32B34311000F86D47 /* Driver */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F595D1A12B3430F300F86D47 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F595D19E2B34288800F86D47 /* LoginView.swift */,
+				F595D1852B34251100F86D47 /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F595D1A22B3430FE00F86D47 /* Passanger */ = {
+			isa = PBXGroup;
+			children = (
+				F595D1A42B34314500F86D47 /* PassengerView.swift */,
+				F595D1972B34261000F86D47 /* PassengerVC.swift */,
+			);
+			path = Passanger;
+			sourceTree = "<group>";
+		};
+		F595D1A32B34311000F86D47 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				F595D1A62B3431C300F86D47 /* DriverView.swift */,
+				F595D1992B34261A00F86D47 /* DriverVC.swift */,
+			);
+			path = Driver;
+			sourceTree = "<group>";
+		};
+		F595D1B02B343F2F00F86D47 /* BusSelect */ = {
+			isa = PBXGroup;
+			children = (
+				F595D1AE2B343F2A00F86D47 /* BusSelectView.swift */,
+				F595D1AC2B343E2F00F86D47 /* BusSelectVC.swift */,
+			);
+			path = BusSelect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +149,9 @@
 			dependencies = (
 			);
 			name = Onay;
+			packageProductDependencies = (
+				F595D19C2B34279D00F86D47 /* SnapKit */,
+			);
 			productName = Onay;
 			productReference = F595D17E2B34251100F86D47 /* Onay.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +180,9 @@
 				Base,
 			);
 			mainGroup = F595D1752B34251100F86D47;
+			packageReferences = (
+				F595D19B2B34279D00F86D47 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = F595D17F2B34251100F86D47 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +199,6 @@
 			files = (
 				F595D18E2B34251500F86D47 /* LaunchScreen.storyboard in Resources */,
 				F595D18B2B34251500F86D47 /* Assets.xcassets in Resources */,
-				F595D1892B34251100F86D47 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +209,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F595D1862B34251100F86D47 /* ViewController.swift in Sources */,
+				F595D1982B34261000F86D47 /* PassengerVC.swift in Sources */,
+				F595D1B22B344E9C00F86D47 /* MapVC.swift in Sources */,
+				F595D1A72B3431C300F86D47 /* DriverView.swift in Sources */,
+				F595D19F2B34288800F86D47 /* LoginView.swift in Sources */,
+				F595D1862B34251100F86D47 /* LoginVC.swift in Sources */,
 				F595D1822B34251100F86D47 /* AppDelegate.swift in Sources */,
 				F595D1842B34251100F86D47 /* SceneDelegate.swift in Sources */,
+				F595D1A52B34314500F86D47 /* PassengerView.swift in Sources */,
+				F595D1AF2B343F2A00F86D47 /* BusSelectView.swift in Sources */,
+				F595D19A2B34261A00F86D47 /* DriverVC.swift in Sources */,
+				F595D1962B3425CC00F86D47 /* Data.swift in Sources */,
+				F595D1AD2B343E2F00F86D47 /* BusSelectVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F595D1872B34251100F86D47 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F595D1882B34251100F86D47 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F595D18C2B34251500F86D47 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +363,6 @@
 				INFOPLIST_FILE = Onay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +389,6 @@
 				INFOPLIST_FILE = Onay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -356,6 +426,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F595D19B2B34279D00F86D47 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F595D19C2B34279D00F86D47 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F595D19B2B34279D00F86D47 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F595D1762B34251100F86D47 /* Project object */;
 }
